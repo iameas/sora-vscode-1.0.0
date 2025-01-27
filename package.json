@@ -1,0 +1,86 @@
+{
+    "name": "sora-language-support",
+    "displayName": "Sora",
+    "description": "Extension for Sora programming languauge that provides syntax highlighting and basic support.",
+    "version": "1.0.0",
+    "publisher": "iameas",
+    "author": {
+        "name": "ThankGod Emmanuel",
+        "email": "thankgodofem216@gmail.com",
+        "url": "https://drauig.fwh.is/leadership/thankgod-emmanuel"
+    },
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/iameas/sora-vscode-1.0.0.git",
+        "bugs": "https://github.com/iameas/sora-vscode-1.0.0/issues",
+        "homepage": "https://drauig.fwh.is/sora"
+    },
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Debuggers",
+        "Themes",
+        "Testing",
+        "Extension Packs",
+        "Formatters",
+        "Other"
+    ],
+    "icon": "src/assets/icon.png",
+    "activationEvents": [
+        "onLanguage:sora",
+        "onCommand:sora.activate"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "languages": [
+            {
+                "id": "sora",
+                "aliases": [
+                    "Sora",
+                    "sora"
+                ],
+                "extensions": [
+                    ".sora"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./src/assets/icon.png",
+                    "dark": "./src/assets/icon.png"
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "sora",
+                "scopeName": "source.sora",
+                "path": "./syntaxes/sora.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "sora",
+                "path": "./snippets/sora.code-snippets.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "sora.activate",
+                "title": "Activate Sora"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "npx tsc",
+        "watch": "npx tsc -w",
+        "package": "vsce package",
+        "publish": "vsce publish"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.96.0",
+        "typescript": "^5.7.3",
+        "vsce": "^2.9.0"
+    }
+}
