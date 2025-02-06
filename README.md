@@ -1,1 +1,1 @@
-# Sora Extension 
+# Sora Extension for Visual Studio Code 
