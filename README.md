@@ -46,7 +46,10 @@ Once installed, Sora files (.sora) will automatically have:
 - Auto-completion for common Sora syntax
 
 ### Example code in Sora
-`show 'Hello, World'`
-and
-`if a is 1, and b is 2:
-    show (a plus b)`
+- Printing to the console:
+    ```sh
+    show 'Hello, World'
+- Calculations in Sora:
+   ```sh
+   if a is 1, and b is 2:
+    show (a plus b)
