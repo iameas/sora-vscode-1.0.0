@@ -26,4 +26,15 @@
    ```sh
    git clone https://github.com/iameas/sora-vscode-1.0.0.git
 - Navigate to project folder:
-   ```sh cd sora-vscode-1.0.0
+   ```sh
+   cd sora-vscode-1.0.0
+- Install dependencies:
+  ```sh
+  npm install
+- Package the extension:
+  ```sh
+  npm run package
+- Install the extension is Visual Studio Code:
+  ```sh
+  code --install-extension sora-language-support.vsix
+- 
