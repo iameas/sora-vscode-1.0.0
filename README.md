@@ -1,5 +1,6 @@
+# Sora VS Code Extension
 
- # Sora VS Code Extension
+![Sora Icon](src/assets/icon.png)
 
 **Sora Language Support** is a **VS Code extension** for the **Sora programming language**, offering **syntax highlighting, linting, debugging, snippets, and auto-completion** to enhance the development experience.
 
