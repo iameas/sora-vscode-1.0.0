@@ -1,3 +1,5 @@
+![GitHub stars](https://img.shields.io/github/stars/iameas/sora-vscode-1.0.0?style=social)
+
 # Sora VS Code Extension
 
 ![Sora Icon](src/assets/icon.png)
@@ -55,12 +57,14 @@ Once installed, Sora files (.sora) will automatically have:
     show (a plus b)
 ---
 
-## **Commands & Shortcuts**  
-List useful commands in the extension.  
+## Contributing  
 
-```md
-## Commands  
+We welcome contributions! 🎉  
+- Fork the repo  
+- Create a new branch  
+- Submit a pull request  
 
-- **Activate Sora:** `Ctrl+Shift+P` → Select **"Activate Sora"**  
-- **Format Code:** `Ctrl+Shift+F`  
-- **Run Code:** `F5`
+Need help? [Open an issue](https://github.com/iameas/sora-vscode-1.0.0/issues).
+
+## License  
+This project is **MIT Licensed**. See [LICENSE](LICENSE) for details.
