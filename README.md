@@ -39,3 +39,14 @@
   code --install-extension sora-language-support.vsix
   
 ### Usage
+Once installed, Sora files (.sora) will automatically have:
+
+- Syntax highlighting
+- IntelliSense for Sora functions
+- Auto-completion for common Sora syntax
+
+### Example code in Sora
+`show 'Hello, World'`
+and
+`if a is 1, and b is 2:
+    show (a plus b)`
