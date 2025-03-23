@@ -53,3 +53,14 @@ Once installed, Sora files (.sora) will automatically have:
    ```sh
    if a is 1, and b is 2:
     show (a plus b)
+---
+
+## **Commands & Shortcuts**  
+List useful commands in the extension.  
+
+```md
+## Commands  
+
+- **Activate Sora:** `Ctrl+Shift+P` → Select **"Activate Sora"**  
+- **Format Code:** `Ctrl+Shift+F`  
+- **Run Code:** `F5`
