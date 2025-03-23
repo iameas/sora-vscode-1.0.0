@@ -22,7 +22,8 @@
 4. Click **Install**.
 
 ### From Source (Manual Installation)
-1. Clone this repository:
+- . Clone this repository:
    ```sh
    git clone https://github.com/iameas/sora-vscode-1.0.0.git
 - Navigate to project folder:
+   ```sh cd sora-vscode-1.0.0
