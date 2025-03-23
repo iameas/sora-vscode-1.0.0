@@ -6,12 +6,12 @@
 
 ## Features
 
-- ✅ **Syntax Highlighting** – Improves code readability.  
-- ✅ **Linting** – Detects syntax errors in real-time.  
-- ✅ **Auto-completion** – Speeds up coding with smart suggestions.  
-- ✅ **Code Snippets** – Predefined templates for faster coding.  
-- ✅ **Debugging Support** – Step through and debug Sora code.  
-- ✅ **Language Configuration** – Defines proper indentation and formatting.  
+- **Syntax Highlighting** – Improves code readability.  
+- **Linting** – Detects syntax errors in real-time.  
+- **Auto-completion** – Speeds up coding with smart suggestions.  
+- **Code Snippets** – Predefined templates for faster coding.  
+- **Debugging Support** – Step through and debug Sora code.  
+- **Language Configuration** – Defines proper indentation and formatting.  
 
 ## Installation
 
@@ -22,7 +22,7 @@
 4. Click **Install**.
 
 ### From Source (Manual Installation)
-- . Clone this repository:
+- Clone this repository:
    ```sh
    git clone https://github.com/iameas/sora-vscode-1.0.0.git
 - Navigate to project folder:
@@ -37,4 +37,5 @@
 - Install the extension is Visual Studio Code:
   ```sh
   code --install-extension sora-language-support.vsix
-- 
+  
+### Usage
